@@ -28,7 +28,8 @@ body {
   mix-blend-mode: difference;
   border-radius: 50%;
   position: absolute;
-  transition: all linear 0.2s;
+/*   transition: all linear 0.2s; */
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
 }
 
 h1 {
